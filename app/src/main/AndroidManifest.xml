@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.durusappIslamicLecturesApp">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/our_icon"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/our_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.IslamicLecturesApp">
+        <activity android:name=".activities.NotificationsActivity">
+
+
+        </activity>
+        <activity android:name=".activities.LessonsActivity"></activity>
+        <activity
+            android:name=".activities.CourseActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activities.SignUpActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activities.LoginActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".activities.SplashActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activities.CategoriesActivity"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

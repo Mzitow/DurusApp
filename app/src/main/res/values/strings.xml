@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">دروس</string>
+    <string name="categories">الفئـــــات</string>
+    <string name="scholars">العلمــــاء</string>
+    <string name="enter_username">اسم المستخدم</string>
+    <string name="dont_have_account">ليس لديك حساب؟</string>
+    <string name="login">دخــــول</string>
+    <string name="enter_password">أدخل كلمة المرور</string>
+    <string name="enter_phone_number">أدخل رقم هاتفك</string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+    <string name="new_registration">تسجيل جديــد</string>
+</resources>
